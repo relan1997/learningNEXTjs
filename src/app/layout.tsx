@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{ // tells that children that is recieved is read only and cannot be altered
   children: React.ReactNode; // this specifically specifies the type that the children will have which is a react component 
 }>) {
